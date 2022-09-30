@@ -5,6 +5,7 @@ import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { HashRouter as Router } from "react-router-dom";
 
+// TicTacToe
 function Square(props) {
   return (
     <button className="square" onClick={props.onClick}>
